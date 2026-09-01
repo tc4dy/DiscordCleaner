@@ -1,3 +1,4 @@
+![Banner](cleanerBanner.png)
 # 🧹 Discord Cleaner
 
 > Bulk delete messages from any user in any channel — with style, speed, and sanity.
