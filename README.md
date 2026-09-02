@@ -41,7 +41,7 @@ Always respect server rules and use responsibly.
 | Filters | ✅ Text, links, files |
 | Stop | ✅ `stopDeleting()` |
 | Stats | ✅ Live console output |
-| Platform | 🌐 Any browser |
+| Platform | 🌐 Any browser & Discord Console |
 | Risk | ⚠️ Token visible in console |
 
 ---
@@ -66,8 +66,8 @@ Always respect server rules and use responsibly.
 
 ---
 
-### Will I get banned?
-Possibly, if you delete thousands of messages in minutes. Discord's rate limits exist for a reason. Use responsibly and at your own risk.
+### How to open Discord console?
+Open Discord in your browser, press **F12** (or `Ctrl+Shift+I`), and click the **Console** tab — paste the script there or by opening the console in the browser.
 
 ---
 
