@@ -89,6 +89,14 @@ Unlimited. The script fetches 100 messages at a time and deletes them in batches
 
 Perfect for a **quick cleanup** without installing anything.
 
+**First, enter your information into the designated places in the script.** 
+
+```    
+    let authToken = "ENTER YOUR TOKEN BROS";
+    let authorId = "ENTER YOUR ID";
+    let channelId = "ENTER THE CHANEL ID <3";
+```
+
 ### How to use
 
 1. Open Discord in your browser (web version)
