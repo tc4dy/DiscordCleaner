@@ -53,7 +53,7 @@
     };
     
     log.prompt("========================================");
-    log.prompt("DISCORD CLEANER | by @tc4dy <3");
+    log.prompt("Discord Cleaner | by @tc4dy <3");
     log.prompt("========================================");
     log.info("This script will delete all messages from a specific user in a channel");
     log.warn("This action cannot be undone!");
