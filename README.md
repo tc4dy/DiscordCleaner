@@ -135,5 +135,11 @@ You can also wrap the script in a userscript header to run it automatically on D
 // Paste the whole script here
 ```
 
+## Result 📊
+
+![Result1](result.png)
+
+---
+![Result2](result2.png)
 
 
