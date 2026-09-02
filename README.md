@@ -23,8 +23,7 @@ Always respect server rules and use responsibly.
 | 🛡️ **Smart Rate-Limiting** | Auto-adjusts speed when Discord rate-limits you |
 | 📦 **Batch Processing** | Deletes 3 messages at a time to avoid timeouts |
 | 📊 **Live Stats** | Real-time counter for deleted, failed, skipped, speed & time |
-| ⏹️ **Stop Anytime** | Type `stopDeleting()` in console to stop safely |
-| 🔍 **Message Filters** | Filter by text content, links only, or files only |
+| ⏹️ **Stop Anytime** | Type `stopDeleting()` in console or CTRL+R to stop safely |
 | 🎯 **Target Specific User** | Only deletes messages from the user ID you specify |
 | ⚡ **Zero Setup** | No installation needed — copy, paste, run |
 | 🔄 **Auto-Retry** | Automatically retries failed requests |
