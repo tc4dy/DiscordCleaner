@@ -15,79 +15,79 @@ Always respect server rules and use responsibly.
 
 ---
 
-## 🐍 Python vs 🖥️ JavaScript – Which one should you use?
+## ✨ Features
 
-| Feature | Python (CLI) | JavaScript (Console) |
-|---------|--------------|----------------------|
-| **Setup** | Requires Python + `aiohttp` | Zero setup – copy/paste into F12 console |
-| **Speed** | Faster (async) | Slightly slower (browser limits) |
-| **Rate‑limit handling** | ✅ Advanced (auto‑adjust) | ✅ Basic (manual cooldown) |
-| **Dry‑run (preview)** | ✅ Yes | ❌ No |
-| **Security** | Token stored in memory only | Token visible in console (be careful!) |
-| **Batch size control** | ✅ Configurable | Fixed (3 per batch) |
-| **Reporting** | Detailed stats + JSON export (planned) | Console logs only |
-| **Recommended for** | **Heavy cleaning (1000+ messages)** | Quick fixes, small channels |
-
-> 🔥 **Our recommendation:** Use the **Python version** for serious cleanup – it's safer, faster, and gives you full control.  
-> The JS version is great for a quick one‑off job when you're already in the browser.
-
----
-
-## ✨ Features (both versions)
-
-- 🗑️ Delete all messages from a **specific user** in a **specific channel**
-- 🛡️ Smart **rate‑limit handling** – automatically slows down when Discord says so
-- 📦 **Batch processing** – delete messages in chunks to avoid timeouts
-- 📊 **Real‑time stats** – see deleted, failed, skipped, speed, and elapsed time
-- ⏸️ **Graceful stop** – press `Ctrl+C` (Python) or type `stopDeleting()` (JS)
-- 🔍 **Optional filters** – content text, links only, files only
-- 🧪 **Dry‑run mode** (Python only) – see what would be deleted without actually doing it
+| Feature | Description |
+|---------|-------------|
+| 🗑️ **Bulk Delete** | Delete all messages from any user in any channel |
+| 🛡️ **Smart Rate-Limiting** | Auto-adjusts speed when Discord rate-limits you |
+| 📦 **Batch Processing** | Deletes 3 messages at a time to avoid timeouts |
+| 📊 **Live Stats** | Real-time counter for deleted, failed, skipped, speed & time |
+| ⏹️ **Stop Anytime** | Type `stopDeleting()` in console to stop safely |
+| 🔍 **Message Filters** | Filter by text content, links only, or files only |
+| 🎯 **Target Specific User** | Only deletes messages from the user ID you specify |
+| ⚡ **Zero Setup** | No installation needed — copy, paste, run |
+| 🔄 **Auto-Retry** | Automatically retries failed requests |
+| 📱 **Works Anywhere** | Browser console — works on Chrome, Firefox, Edge |
+| ⏱️ **Speed Stats** | See messages per second and total time elapsed |
 
 ---
 
-## 🐍 Python Version (Recommended)
+## 🎯 Quick Comparison
 
-### Installation
-
-```bash
-pip install aiohttp
-```
-
-### Usage
-
-```bash
-python cleaner.py --token "YOUR_TOKEN" \
-                   --author-id "USER_ID" \
-                   --channel-id "CHANNEL_ID" \
-                   --content "spam" \
-                   --dry-run
-```
-
-#### Interactive mode (easiest)
-
-```bash
-python cleaner.py --interactive
-```
-
-### All arguments
-
-| Argument | Description |
-|----------|-------------|
-| `--token` | Your Discord token (keep it secret!) |
-| `--author-id` | User ID to delete messages from |
-| `--channel-id` | Channel ID to clean |
-| `--content` | Only delete messages containing this text |
-| `--has-link` | Only delete messages with links |
-| `--has-file` | Only delete messages with attachments |
-| `--batch-size` | Messages per batch (default: 3) |
-| `--delete-delay` | Delay between deletions in ms (default: 1000) |
-| `--search-delay` | Delay between API requests (default: 2000) |
-| `--dry-run` | Preview without actually deleting |
-| `--verbose` | Show debug logs |
+| Feature | JavaScript Version |
+|---------|-------------------|
+| Setup | ⚡ Zero — just copy & paste |
+| Speed | 🐢 Respects Discord limits |
+| Filters | ✅ Text, links, files |
+| Stop | ✅ `stopDeleting()` |
+| Stats | ✅ Live console output |
+| Platform | 🌐 Any browser |
+| Risk | ⚠️ Token visible in console |
 
 ---
 
-## 🖥️ JavaScript Version (Console)
+## ❓ FAQ
+
+### Where do I find my Discord token?
+1. Press **F12** to open Developer Tools
+2. Go to **Network** tab
+3. Send a message or reload the page
+4. Click any request starting with `science` or `messages`
+5. Scroll to **Request Headers** → copy the `authorization` value
+
+> ⚠️ **Never share your token with anyone!**
+
+---
+
+### Where do I get User ID and Channel ID?
+1. Enable **Developer Mode** in Discord Settings → Advanced
+2. **User ID:** Right-click any user → Copy ID
+3. **Channel ID:** Right-click the channel → Copy ID
+
+---
+
+### Will I get banned?
+Possibly, if you delete thousands of messages in minutes. Discord's rate limits exist for a reason. Use responsibly and at your own risk.
+
+---
+
+### Can I delete messages from other users?
+No. You can only delete messages from your own account. The script filters by the user ID you provide, but it still uses your token — so only your messages get deleted.
+
+---
+
+### Does it work on mobile?
+Yes, but it's complicated. You'd need to use a browser with developer tools (like Kiwi Browser) or use desktop mode. For best results, use a desktop browser.
+
+---
+
+### How many messages can I delete at once?
+Unlimited. The script fetches 100 messages at a time and deletes them in batches of 3. It will continue until all messages are deleted or you stop it.
+
+---
+
+## 🖥️ Script Usage
 
 Perfect for a **quick cleanup** without installing anything.
 
