@@ -42,7 +42,6 @@ Always respect server rules and use responsibly.
 | Stop | ✅ `stopDeleting()` |
 | Stats | ✅ Live console output |
 | Platform | 🌐 Any browser & Discord Console |
-| Risk | ⚠️ Token visible in console |
 
 ---
 
