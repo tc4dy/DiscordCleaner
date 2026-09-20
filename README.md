@@ -5,7 +5,7 @@
 
 ---
 
-## ⚠️ Legal & Discord ToS
+## Legal & Discord ToS
 
 **Use at your own risk.**  
 This tool interacts with Discord's API using your personal token.  
@@ -15,7 +15,7 @@ Always respect server rules and use responsibly.
 
 ---
 
-## ✨ Features
+## Features
 
 | Feature | Description |
 |---------|-------------|
@@ -32,7 +32,7 @@ Always respect server rules and use responsibly.
 
 ---
 
-## 🎯 Quick Comparison
+## Quick Comparison
 
 | Feature | JavaScript Version |
 |---------|-------------------|
