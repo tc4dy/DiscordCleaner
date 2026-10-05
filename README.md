@@ -85,7 +85,7 @@ Unlimited. The script fetches 100 messages at a time and deletes them in batches
 
 ---
 
-## 🖥️ Script Usage
+## [<>] Script Usage
 
 Perfect for a **quick cleanup** without installing anything.
 
