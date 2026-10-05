@@ -1,5 +1,5 @@
 ![Banner](cleanerBanner.png)
-# 🧹 Discord Cleaner
+# Discord Cleaner
 
 > Bulk delete messages from any user in any channel — with style, speed, and sanity.
 
@@ -19,16 +19,16 @@ Always respect server rules and use responsibly.
 
 | Feature | Description |
 |---------|-------------|
-| 🗑️ **Bulk Delete** | Delete all messages from any user in any channel |
-| 🛡️ **Smart Rate-Limiting** | Auto-adjusts speed when Discord rate-limits you |
-| 📦 **Batch Processing** | Deletes 3 messages at a time to avoid timeouts |
-| 📊 **Live Stats** | Real-time counter for deleted, failed, skipped, speed & time |
-| ⏹️ **Stop Anytime** | Type `stopDeleting()` in console or CTRL+R to stop safely |
-| 🎯 **Target Specific User** | Only deletes messages from the user ID you specify |
-| ⚡ **Zero Setup** | No installation needed — copy, paste, run |
-| 🔄 **Auto-Retry** | Automatically retries failed requests |
-| 📱 **Works Anywhere** | Browser console — works on Chrome, Firefox, Edge |
-| ⏱️ **Speed Stats** | See messages per second and total time elapsed |
+| [+] **Bulk Delete** | Delete all messages from any user in any channel |
+| [+] **Smart Rate-Limiting** | Auto-adjusts speed when Discord rate-limits you |
+| [+] **Batch Processing** | Deletes 3 messages at a time to avoid timeouts |
+| [+] **Live Stats** | Real-time counter for deleted, failed, skipped, speed & time |
+| [+] **Stop Anytime** | Type `stopDeleting()` in console or CTRL+R to stop safely |
+| [+] **Target Specific User** | Only deletes messages from the user ID you specify |
+| [+] **Zero Setup** | No installation needed — copy, paste, run |
+| [+] **Auto-Retry** | Automatically retries failed requests |
+| [+] **Works Anywhere** | Browser console — works on Chrome, Firefox, Edge |
+| [+] **Speed Stats** | See messages per second and total time elapsed |
 
 ---
 
@@ -36,16 +36,16 @@ Always respect server rules and use responsibly.
 
 | Feature | JavaScript Version |
 |---------|-------------------|
-| Setup | ⚡ Zero — just copy & paste |
-| Speed | 🐢 Respects Discord limits |
-| Filters | ✅ Text, links, files |
-| Stop | ✅ `stopDeleting()` |
-| Stats | ✅ Live console output |
-| Platform | 🌐 Any browser & Discord Console |
+| Setup | [>] Zero — just copy & paste |
+| Speed | [>] Respects Discord limits |
+| Filters | [>] Text, links, files |
+| Stop | [>] `stopDeleting()` |
+| Stats | [>] Live console output |
+| Platform | [>] Any browser & Discord Console |
 
 ---
 
-## ❓ FAQ
+## [?] FAQ
 
 ### Where do I find my Discord token?
 1. Press **F12** to open Developer Tools
@@ -54,7 +54,7 @@ Always respect server rules and use responsibly.
 4. Click any request starting with `science` or `messages`
 5. Scroll to **Request Headers** → copy the `authorization` value
 
-> ⚠️ **Never share your token with anyone!**
+> [!] **Never share your token with anyone!**
 
 ---
 
@@ -135,7 +135,7 @@ You can also wrap the script in a userscript header to run it automatically on D
 // Paste the whole script here
 ```
 
-## Result 📊
+## Result
 
 ![Result1](result.png)
 
